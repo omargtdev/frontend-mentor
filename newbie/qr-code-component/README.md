@@ -12,7 +12,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -30,7 +29,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: https://github.com/omargtdev/frontend-mentor/tree/main/newbie/qr-code-component
-- Live Site URL: https://codepen.io/omargtdev/pen/NWYWMYL
+- Live Site URL: https://qr-code-component-psi-roan.vercel.app/
 
 ## My process
 
@@ -51,8 +50,4 @@ I'll continue to focus on areas such as better html layout, depending on the req
 ## Author
 
 - Frontend Mentor - [@omargtdev](https://www.frontendmentor.io/profile/omargtdev)
-- Twitter - [@omargtdev](https://www.twitter.com/yourusername)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- Twitter - [@omargtdev](https://www.twitter.com/omargtdev)

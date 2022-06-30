@@ -1,0 +1,147 @@
+:root {
+  --main-bg-color: hsl(217, 54%, 11%);
+  --second-bg-color: hsl(216, 50%, 16%);
+  --main-font-color: hsl(215, 51%, 70%);
+  --second-font-color: hsl(0, 0%, 100%);
+  --hover-color: hsl(178, 100%, 50%);
+  --line-color: hsl(215, 32%, 27%);
+}
+
+body {
+  font-family: Outfit, sans-serif;
+  background-color: var(--main-bg-color);
+  font-size: 18px;
+}
+
+/* Center the container */
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nft {
+  background-color: var(--second-bg-color);
+  width: 300px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.img-container {
+  position: relative;
+  width: 300px;
+  height: 300px
+}
+
+.img-preview {
+  background-color: hsl(178, 100%, 50%, 50%);
+  cursor: pointer;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  border-radius: 10px; 
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.img-preview:hover {
+  opacity: 1;
+}
+
+.img-preview svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+.nft__img {
+  width: 100%;
+  border-radius: 10px; 
+}
+
+
+.nft__name {
+  color: var(--second-font-color);
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  transition: color .5s;
+}
+
+.nft__name:hover {
+  cursor: pointer;
+  color: var(--hover-color);
+}
+
+.nft__text {
+  color: var(--main-font-color);
+  line-height: 28px;
+  font-size: .9em;
+  margin-top: 0;
+}
+
+.nft__text--no-margin {
+  margin-bottom: 0;
+}
+
+.nft__text--cyan {
+  color: var(--hover-color);
+  font-weight: 600;
+}
+
+.nft__text--strong {
+  font-weight: 400;
+}
+
+.nft__group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nft__group--separate {
+  justify-content: space-between;
+  gap: 0;
+  margin-top: -10px;
+}
+
+.nft__creator {
+  margin-top: 10px;
+  border-top: 1px solid var(--line-color);
+  padding-top: 15px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.nft__creator-avatar {
+  width: 35px;
+  height: 35px;
+  border: 1px solid var(--second-font-color);
+  border-radius: 100%;
+}
+
+.nft__creator-name {
+  color: var(--second-font-color);
+  transition: color .5s;
+}
+
+.nft__creator-name:hover {
+  cursor: pointer;
+  color: var(--hover-color);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 30px;
+  color: var(--second-font-color);
+}
+
+.attribution a {
+  color: var(--main-font-color);
+}
