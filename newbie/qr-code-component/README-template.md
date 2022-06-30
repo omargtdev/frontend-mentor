@@ -32,8 +32,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [https://codepen.io/omargtdev/pen/NWYWMYL](https://codepen.io/omargtdev/pen/NWYWMYL)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://codepen.io/omargtdev/pen/NWYWMYL](https://codepen.io/omargtdev/pen/NWYWMYL)
 
 ## My process
 
